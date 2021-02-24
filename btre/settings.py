@@ -132,5 +132,4 @@ MEDIA_URL = '/media/'
 # Messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
-    # 50: 'critical',
 }

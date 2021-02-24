@@ -8,7 +8,7 @@
       <span aria-hidden="treu">&times;</span>
     </button>
     <strong>
-      {% if message.leve == DEFAULT_MASSAGE_LEVELS.ERROR %} Error: {% else %}
+      {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %} Error: {% else %}
       {{message.tags|title}} {% endif %}
     </strong>
     {{message}}
