@@ -150,4 +150,10 @@ dmypy.json
 # profiling data
 .prof
 
+/media
+db.sqlite3
+venv
+/static
+
+
 # End of https://www.toptal.com/developers/gitignore/api/django
